@@ -59,7 +59,7 @@ To get started with GridGain binary distribution:
 
 >GridGain source distribution is available only for Community Edition.
 
-To get started with GridGain Source distribution:
+To get started with GridGain source distribution:
 
  1. [Download GridGain](https://www.gridgain.com/resources/download) binary as a zip archive 
  
