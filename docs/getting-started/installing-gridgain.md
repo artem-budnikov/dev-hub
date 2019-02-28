@@ -78,5 +78,4 @@ $ mvn initialize -Prelease
 
 Look for gridgain-<version>-bin.zip in ./target/bin directory.
 ```
-
->Refer to `DEVNOTES.txt` from the source package for more details.
+Refer to `DEVNOTES.txt` from the source package for more details.
