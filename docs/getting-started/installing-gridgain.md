@@ -1,7 +1,6 @@
 # Installing GridGain
 
-This chapter describes system requirements for running GridGain, how to download the software and install it on all
-supported platforms.
+This chapter explains system requirements for running GridGain, how to install GridGain and start a GridGain node.
 
 ## Prerequisites
 GridGain was officially tested on:
