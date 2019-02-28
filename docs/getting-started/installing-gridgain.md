@@ -68,7 +68,7 @@ To get started with GridGain Source distribution:
 ```
 # Unpack the source package
 $ unzip -q apache-ignite-{version}-src.zip
-$ cd girdgain-{version}-src
+$ cd gridgain-{version}-src
 
 # Compile and install
 $ mvn clean install -Pall-java,all-scala,licenses -DskipTests
