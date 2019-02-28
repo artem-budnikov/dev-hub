@@ -79,3 +79,57 @@ $ mvn initialize -Prelease
 Look for gridgain-{version}-bin.zip in ./target/bin directory.
 ```
 Refer to `DEVNOTES.txt` from the source package for more details.
+
+## Starting a GridGain Cluster
+
+You can start your GridGain cluster, using a command line interface, with the default configuration file or a custom
+configuration file. You can start as many nodes as you like. GridGain nodes will discover each other automatically.
+
+### With Default Configuration
+
+To start a GridGain cluster node with the default configuration, open the command shell and, assuming you are in `IGNITE_HOME`
+(GridGain installation folder), just type this:
+
+```
+# For Unix
+$ bin/ignite.sh
+
+# For Windows
+$ bin\ignite.bat
+``` 
+
+You will see the output similar to this:
+
+```
+[02:49:12] Ignite node started OK (id=ab5d18a6)
+[02:49:12] Topology snapshot [ver=1, nodes=1, CPUs=8, heap=1.0GB]
+``` 
+
+By default `ignite.sh` starts a node with the default configuration which is `config/default-config.xml`.
+
+### With Custom Configuration
+
+To start a GridGain cluster node with a custom configuration file, open the command shell and, assuming you are in `IGNITE_HOME`
+(the GridGain installation folder), pass the configuration file as a parameter to `ignite.sh|bat` as follows:
+
+```
+# For Unix
+$ bin/ignite.sh examples/config/example-ignite.xml
+
+# For Windows
+$ bin\ignite.bat examples\config\example-ignite.xml
+```
+
+The path to the configuration file can be absolute, or relative to either `IGNITE_HOME` (GridGain installation folder) or `META-INF` folder in your classpath.
+
+>  To pick a configuration file from interactive mode just pass `-i` flag, like so: `ignite.sh -i`.
+
+You will see the output similar to this:
+
+```
+[02:49:12] Ignite node started OK (id=ab5d18a6)
+[02:49:12] Topology snapshot [ver=1, nodes=1, CPUs=8, heap=1.0GB]
+``` 
+
+Congratulations! You've just launched your first Ignite cluster.
+
