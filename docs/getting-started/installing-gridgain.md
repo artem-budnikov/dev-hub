@@ -33,6 +33,5 @@ flags are already set up in the script. Otherwise, provide the following paramet
   --illegal-access=permit
   -Djdk.tls.client.protocols=TLSv1.2
   ``` 
-
 3. TLSv1.3, which is available in Java 11, is not supported at the moment. Consider adding `-Djdk.tls.client.protocols=TLSv1.2`
 if SSL between nodes is used.
