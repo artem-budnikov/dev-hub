@@ -24,16 +24,15 @@ To run GridGain with Java 9/10/11, perform the following steps:
 make these APIs available. If you use the start-up script `ignite.sh`, you do not need to do anything because these
 flags are already set up in the script. Otherwise, provide the following parameters to the JVM of your application:
 
-```
---add-exports=java.base/jdk.internal.misc=ALL-UNNAMED 
---add-exports=java.base/sun.nio.ch=ALL-UNNAMED 
---add-exports=java.management/com.sun.jmx.mbeanserver=ALL-UNNAMED 
---add-exports=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED
---add-exports=java.base/sun.reflect.generics.reflectiveObjects=ALL-UNNAMED
---illegal-access=permit
--Djdk.tls.client.protocols=TLSv1.2 
-
-``` 
+  ```
+  --add-exports=java.base/jdk.internal.misc=ALL-UNNAMED 
+  --add-exports=java.base/sun.nio.ch=ALL-UNNAMED 
+  --add-exports=java.management/com.sun.jmx.mbeanserver=ALL-UNNAMED 
+  --add-exports=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED
+  --add-exports=java.base/sun.reflect.generics.reflectiveObjects=ALL-UNNAMED
+  --illegal-access=permit
+  -Djdk.tls.client.protocols=TLSv1.2
+  ``` 
 
 3. TLSv1.3, which is available in Java 11, is not supported at the moment. Consider adding `-Djdk.tls.client.protocols=TLSv1.2`
 if SSL between nodes is used.
