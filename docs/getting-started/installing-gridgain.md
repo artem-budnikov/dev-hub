@@ -80,14 +80,14 @@ Look for gridgain-{version}-bin.zip in ./target/bin directory.
 ```
 Refer to `DEVNOTES.txt` from the source package for more details.
 
-## Starting a GridGain Cluster
+## Starting a GridGain Node
 
-You can start your GridGain cluster, using a command line interface, with the default configuration file or a custom
-configuration file. You can start as many nodes as you like. GridGain nodes will discover each other automatically.
+A GridGain node can be started from command line either with default configuration or by passing a custom configuration file. 
+You can start as many nodes as you like and they will all automatically discover each other.
 
 ### With Default Configuration
 
-To start a GridGain cluster node with the default configuration, open the command shell and, assuming you are in `IGNITE_HOME`
+To start a GridGain node with the default configuration, open the command shell and, assuming you are in `IGNITE_HOME`
 (GridGain installation folder), just type this:
 
 ```
@@ -109,7 +109,7 @@ By default `ignite.sh` starts a node with the default configuration which is `co
 
 ### With Custom Configuration
 
-To start a GridGain cluster node with a custom configuration file, open the command shell and, assuming you are in `IGNITE_HOME`
+To start a GridGain node with a custom configuration file, open the command shell and, assuming you are in `IGNITE_HOME`
 (the GridGain installation folder), pass the configuration file as a parameter to `ignite.sh|bat` as follows:
 
 ```
