@@ -52,7 +52,7 @@ To get started with GridGain binary distribution:
 
  2. Unzip the zip archive into the installation folder in your system
 
- 3. (Optional) Set `IGNITE_HOME` (for CE) or `GRIDGAIN_HOME` (for EE and UE) environment variable to point to the installation folder and make sure there is no trailing `/` in the path
+ 3. (Optional) Set `IGNITE_HOME` environment variable to point to the installation folder and make sure there is no trailing `/` in the path
 
 ### Using Source Distribution
 
