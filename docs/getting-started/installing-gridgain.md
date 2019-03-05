@@ -75,7 +75,7 @@ $ mvn clean install -Pall-java,all-scala,licenses -DskipTests
 # Assemble GridGain
 $ mvn initialize -Prelease
 ```
-3. Look for gridgain-{version}-bin.zip in ./target/bin directory. 
+3. Look for `gridgain-{version}-bin.zip` in ./target/bin directory. 
 
 Refer to `DEVNOTES.txt` from the source package for more details.
 
