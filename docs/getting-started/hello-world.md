@@ -25,7 +25,7 @@ $ bin/ignite.sh examples/config/example-ignite.xml
 
 You can start as many nodes as you like. GridGain will automatically discover all the nodes in the cluster.
 
-## 3. Add Ignite Maven Dependency
+## 3. Add Maven Dependency
 The easiest way to get started with GridGain in Java is to use Maven 2 dependency management.
 
 Add the following Ignite dependencies in your project’s pom.xml file. Replace `${gridgain-version}` with the actual GridGain version you are using.
