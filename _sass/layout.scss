@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #fafafa url(/assets/images/background-lines.svg) no-repeat bottom right;
+    display: grid;
+    grid-template-columns: 259px minmax(auto, 1fr) minmax(0, 259px);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 'header header header' 'left-nav content right-nav' 'footer footer footer';
+    min-height: 100vh;
+}
+header {
+    grid-area: header;
+}
+footer {
+    grid-area: footer;
+    margin: 0 60px;
+}
+section {
+    grid-area: content;
+    margin-bottom: 60px;
+}
+* {
+    box-sizing: border-box;
+}

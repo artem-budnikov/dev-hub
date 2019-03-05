@@ -1,0 +1,14 @@
+footer {
+    border-top: 2px solid #dddddd;
+    height: 104px;
+    font-size: 18px;
+    color: #393939;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .gridgain-link {
+        position: relative;
+        top: -3px;
+    }
+}

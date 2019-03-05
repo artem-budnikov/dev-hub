@@ -1,0 +1,20 @@
+- title: Introduction
+  items:
+    - title: What is Ignite
+      url: /docs/intro/what-is-ignite.html
+    - title: What is Gridgain
+      url: /docs/intro/what-is-gridgain.html
+- title: Getting Started
+  items:
+    - title: Installing Gridgain
+      url: /docs/getting-started/installing-gridgain.html
+    - title: Running your first Gridgain application
+      url: /docs/getting-started/hello-world.html
+- title: Developer’s Guide
+  items:
+    - title: Setting Up
+      url: /docs/developers-guide/setup.html
+- title: Administrator’s Guide
+  items:
+    - title: Prerequisites
+      url: /docs/administrators-guide/setup.html

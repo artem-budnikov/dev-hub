@@ -1,2 +1,8 @@
 repository: gridgain/dev-hub
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: 'doc'

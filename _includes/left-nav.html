@@ -1,0 +1,28 @@
+<nav class='left-nav'>
+    {% for item in site.data.left-nav %}
+        <li>
+            {% if item.items %}
+            <a
+                href='{{item.items[0].url}}'
+            >
+                {{item.title}}
+            </a>
+            <nav>
+                {% for item in item.items %}
+                    <li>
+                        <a
+                            href="{{item.url}}"
+                            class='{% if item.url == page.url %}active{% endif %}'
+                        >{{item.title}}</a>
+                    </li>
+                {% endfor %}
+            </nav>                
+            {% else %}
+            <a
+                href="{{item.url}}"
+                class='{% if.item.url == page.url %}active{% endif %}'
+            >{{item.title}}</a>
+            {% endif %}
+        </li>
+    {% endfor %}
+</nav>

@@ -1,0 +1,35 @@
+.left-nav {
+    padding: 10px 20px;
+
+    li {
+        list-style: none;
+    }    
+    a {
+        text-decoration: none;
+        color: #757575;
+        font-size: 16px;
+        display: inline-block;
+        margin: 5px 0;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+
+        &.active, &:hover {
+            color: var(--gg-orange);
+        }
+    }
+
+    nav {
+        border-left: 2px solid #dddddd;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    nav > li > a {
+        padding-left: 20px;
+
+        &.active {
+            border-left: 4px solid var(--gg-orange);
+            padding-left: 16px;
+        }
+    }
+}

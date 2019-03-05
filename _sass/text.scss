@@ -1,0 +1,38 @@
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #393939;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    color: #757575;
+
+    a:link {
+        color: var(--gg-orange);
+    }
+    a:hover {
+        color: hsl(0, 0%, 70%);
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    td, th {
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 1px solid hsl(0, 0%, 85%);
+    }
+}
