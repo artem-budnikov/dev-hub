@@ -2,13 +2,6 @@
 
 This tutorial shows you how to run a simple "Hello World" example in GridGain.
 
-The following technologies are used in this example:
-
-* Java Development Kit (JDK) 1.8
-* GridGain Community Edition
-* Maven 3.1.1
-* IntelliJ IDEA 15 CE
-
 
 ## 1. Download and Install GridGain
 Download the latest binary distribution from the [GridGain website](https://www.gridgain.com/resources/download) and extract the resulting .zip file to a location of your choice:
@@ -69,5 +62,5 @@ Go to Run —> Edit Configurations —> VM options (under Configuration tab) and
 This step is required only because we are trying to provide a relative path to the configuration file in our code example above.
 You can skip this step and provide an absolute path instead.
 
-## 6. Output
+## 6. Run HelloWorld.java
 Run HelloWorld.java. You will see ‘Hello World!’ printed on all the nodes.
