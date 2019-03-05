@@ -64,7 +64,7 @@ To get started with GridGain source distribution:
  
  2. Build the binary using the following commands:
 
-```
+```shell
 # Unpack the source package
 $ unzip -q gridgain-{version}-src.zip
 $ cd gridgain-{version}-src
