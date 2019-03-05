@@ -89,7 +89,7 @@ You can start as many nodes as you like and they will all automatically discover
 To start a GridGain node with the default configuration, open the command shell and, assuming you are in `IGNITE_HOME`
 (GridGain installation folder), just type this:
 
-```shell
+```
 # For Unix
 $ bin/ignite.sh
 
@@ -99,7 +99,7 @@ $ bin\ignite.bat
 
 You will see the output similar to this:
 
-```shell
+```
 [02:49:12] Ignite node started OK (id=ab5d18a6)
 [02:49:12] Topology snapshot [ver=1, nodes=1, CPUs=8, heap=1.0GB]
 ``` 
@@ -111,7 +111,7 @@ By default `ignite.sh` starts a node with the default configuration which is `co
 To start a GridGain node with a custom configuration file, open the command shell and, assuming you are in `IGNITE_HOME`
 (the GridGain installation folder), pass the configuration file as a parameter to `ignite.sh|bat` as follows:
 
-```shell
+```
 # For Unix
 $ bin/ignite.sh examples/config/example-ignite.xml
 
@@ -125,7 +125,7 @@ The path to the configuration file can be absolute, or relative to either `IGNIT
 
 You will see the output similar to this:
 
-```shell
+```
 [02:49:12] Ignite node started OK (id=ab5d18a6)
 [02:49:12] Topology snapshot [ver=1, nodes=1, CPUs=8, heap=1.0GB]
 ``` 
