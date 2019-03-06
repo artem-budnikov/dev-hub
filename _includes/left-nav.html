@@ -12,6 +12,7 @@
                     <li>
                         <a
                             href="{{item.url|relative_url}}"
+                            data-page='{{page.url}}'
                             class='{% if item.url == page.url %}active{% endif %}'
                         >{{item.title}}</a>
                     </li>
