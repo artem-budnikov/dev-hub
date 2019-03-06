@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: #fafafa url(/assets/images/background-lines.svg) no-repeat bottom right;
+    background: #fafafa url(../images/background-lines.svg) no-repeat bottom right;
     display: grid;
     grid-template-columns: 259px minmax(auto, 1fr) minmax(0, 259px);
     grid-template-rows: auto 1fr auto;
