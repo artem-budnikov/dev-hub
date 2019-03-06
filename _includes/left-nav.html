@@ -1,3 +1,4 @@
+{% if page.leftNav != false %}
 <nav class='left-nav'>
     {% for item in site.data.left-nav %}
         <li>
@@ -27,3 +28,4 @@
         </li>
     {% endfor %}
 </nav>
+{% endif %}
