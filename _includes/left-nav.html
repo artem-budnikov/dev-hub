@@ -3,7 +3,7 @@
         <li>
             {% if item.items %}
             <a
-                href='{{item.items[0].url}}'
+                href='{{item.items[0].url|relative_url}}'
             >
                 {{item.title}}
             </a>
@@ -11,7 +11,7 @@
                 {% for item in item.items %}
                     <li>
                         <a
-                            href="{{item.url}}"
+                            href="{{item.url|relative_url}}"
                             class='{% if item.url == page.url %}active{% endif %}'
                         >{{item.title}}</a>
                     </li>
@@ -19,7 +19,7 @@
             </nav>                
             {% else %}
             <a
-                href="{{item.url}}"
+                href="{{item.url|relative_url}}"
                 class='{% if.item.url == page.url %}active{% endif %}'
             >{{item.title}}</a>
             {% endif %}

@@ -1,18 +1,18 @@
 <header>
     <a href="/" class='home' title='Home'>
-        <img src="/assets/images/gridgain-header-logo-white.svg" alt="GridGain Developers Hub" width="103" height="26">
+        <img src="{{'/assets/images/gridgain-header-logo-white.svg'|relative_url}}" alt="GridGain Developers Hub" width="103" height="26">
     </a>
     <nav>
         {% for item in site.data.top-nav %}
             <li>
                 <a
                     class='active'
-                    href="{{item.url}}"
+                    href="{{item.url|relative_url}}"
                 >{{item.title}}</a>
             </li>
         {% endfor %}
     </nav>
     <a href="https://github.com/gridgain/gridgain" title='GitHub' class='github' target="_blank">
-        <img src="/assets/images/github-white.svg" alt="GitHub logo">
+        <img src="{{'/assets/images/github-white.svg'|relative_url}}" alt="GitHub logo">
     </a>
 </header>
