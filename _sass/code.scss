@@ -5,3 +5,30 @@ pre {
     border: 1px solid #e5e5e5;
     overflow-x: auto;
 }
+
+code-tabs.code-tabs__initialized {
+    display: block;
+
+    nav button {
+        background: white;
+        color: inherit;
+        border: none;
+        padding: 0.7em 1em;
+        cursor: pointer;
+
+        &.active {
+            border-bottom: 2px solid var(--gg-orange);
+        }
+    }
+
+    code-tab:not([hidden]) {
+        display: block;
+        padding: 0.5em;
+        border: 1px solid #e0e0e0;
+        border-radius: 0 0 4px 4px;
+
+        pre.highlight {
+            margin: 0;
+        }
+    }
+}
