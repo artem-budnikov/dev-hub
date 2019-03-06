@@ -1,3 +1,6 @@
+---
+category: 'docs'
+---
 # Setting Up #
 
 ## Prerequisites ##

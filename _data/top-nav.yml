@@ -1,4 +1,6 @@
 - title: Resources
   url: /docs/intro/what-is-gridgain/
+  category: docs
 - title: API
   url: /api/
+  category: api

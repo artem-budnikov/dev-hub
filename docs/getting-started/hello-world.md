@@ -1,3 +1,6 @@
+---
+category: 'docs'
+---
 # Running Your First GridGain Application
 
 This tutorial shows you how to run a simple "Hello World" example in GridGain.

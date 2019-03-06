@@ -1,5 +1,6 @@
 ---
 leftNav: false
+category: 'api'
 ---
 # Generated docs #
 

@@ -1,1 +1,4 @@
+---
+category: 'docs'
+---
 # Setting Up #

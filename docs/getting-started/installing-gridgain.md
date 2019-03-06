@@ -1,3 +1,6 @@
+---
+category: 'docs'
+---
 # Installing and Starting GridGain
 
 This chapter explains system requirements for running GridGain, how to install GridGain and start a GridGain node.

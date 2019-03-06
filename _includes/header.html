@@ -6,8 +6,8 @@
         {% for item in site.data.top-nav %}
             <li>
                 <a
-                    class='active'
                     href="{{item.url|relative_url}}"
+                    class="{% if page.category == item.category %}active{% endif %}"
                 >{{item.title}}</a>
             </li>
         {% endfor %}
